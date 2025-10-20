@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_theme_guinda" android:title="Tema Guinda"/>
+    <item android:id="@+id/action_theme_azul"   android:title="Tema Azul"/>
+    <item android:id="@+id/action_dark_toggle"  android:title="Claro/Oscuro"/>
+</menu>

@@ -1,9 +1,28 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.Practica3" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Tema base (Material 3 con DayNight) -->
+    <style name="Base.Theme.Practica3" parent="Theme.Material3.DayNight.NoActionBar" />
+
+    <!-- Tema por defecto de la app -->
+    <style name="Theme.Practica3" parent="Base.Theme.Practica3" />
+
+    <!-- Tema institucional GUINDA -->
+    <style name="Theme.Practica3.Guinda" parent="Theme.Practica3">
+        <item name="colorPrimary">@color/gb_primary</item>
+        <item name="colorOnPrimary">@color/gb_onPrimary</item>
+        <item name="colorSecondary">@color/gb_secondary</item>
+        <item name="colorSurface">@color/gb_surface</item>
+        <item name="colorOnSurface">@color/gb_onSurface</item>
     </style>
 
-    <style name="Theme.Practica3" parent="Base.Theme.Practica3" />
+    <!-- Tema institucional AZUL -->
+    <style name="Theme.Practica3.Azul" parent="Theme.Practica3">
+        <item name="colorPrimary">@color/az_primary</item>
+        <item name="colorOnPrimary">@color/az_onPrimary</item>
+        <item name="colorSecondary">@color/az_secondary</item>
+        <item name="colorSurface">@color/az_surface</item>
+        <item name="colorOnSurface">@color/az_onSurface</item>
+    </style>
+
 </resources>
